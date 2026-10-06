@@ -1,0 +1,132 @@
+/*********************************************************************
+  YOUR MOBILE/BASE STYLES GO HERE
+*********************************************************************/
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-size: 16px;
+}
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-size: 16px;
+}
+
+
+body {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.resume {
+    width:auto;
+    margin-left: 80px;
+    margin-right: 10px;
+    padding: 20px;
+    max-width: 100%;
+}
+
+
+header {
+    font-family: Georgia, serif;
+    margin-left: 40px;
+    text-align: center;
+
+}
+
+.profile {
+    font-family: Georgia, serif;
+    margin-left: 40px;
+}
+
+.experience {
+    font-family: Georgia, serif;
+    margin-left: 40px;
+}
+
+.education {
+    font-family: Georgia, serif;
+    margin-left: 40px;
+}
+
+.right{
+text-align: right;
+white-space:nonwrap;
+}
+
+
+
+.profile h2 {
+    color: black;
+    font-weight: bold;
+}
+
+.experience h2 {
+    color: black;
+    font-weight: bold;
+}
+.culinary h2 {
+    color: black;
+    font-weight: bold;
+}
+
+
+.right h2 {
+    color: black;
+    font-weight: bold;
+}
+
+
+
+.profile {
+    margin-bottom: 5px;
+}
+
+.experience {
+    margin-bottom: 5px;
+}
+
+.education {
+      margin-bottom: 5px;
+}
+
+.skills {
+      margin-bottom: 5px;}
+
+.culinary {
+     margin-bottom: 5px;
+}
+
+
+
+p {
+    margin-top: 2px;
+    margin-bottom: 30px;
+}
+
+ul {
+    margin-top: 2px;
+    margin-bottom: 30px;
+}
+
+/*********************************************************************
+  YOUR TABLET/DESKTOP STYLES GO HERE
+*********************************************************************/
+@media(min-width: 681px) {
+    /* Any adjustments for tablets and larger go here.
+    Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+}
+
+/*********************************************************************
+  YOUR DESKTOP-ONLY STYLES GO HERE
+*********************************************************************/
+@media(min-width: 729px) {
+    /* Any adjustments for desktop and larger go here.
+    Note these styles will be applied to anything 729px or larger -- so desktop */
+}
